@@ -1,0 +1,369 @@
+body {
+    --font: "Quicksand", sans-serif;
+}
+header {
+    width: auto;
+    height: 7em;
+    background-color: #ffcc32;
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    width: 80%;
+    position: absolute;
+    top: 3rem;
+    margin: 0rem 2rem;
+    font-family: "Quicksand", Helvetica, Arial, Lucida, sans-serif;
+}
+@media only screen and (max-width: 426px) {
+    header {
+        height: 5rem;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .container1 {
+        height: 80px;
+        position: absolute;
+        top: 2rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .imgforlogo {
+        margin: 0px 180px;
+    }
+}
+.containerclass11 {
+    width: 5rem;
+    margin-right: 100px;
+    /* border:1px solid; */
+}
+.containerclass22 {
+    width: 10rem;
+    /* border:1px solid; */
+    flex-direction: column-reverse;
+    margin-left: 1rem;
+}
+a {
+    font-family: var(--font);
+    margin-top: -10px;
+}
+@media screen and (max-width: 426px) {
+    .collapse {
+        background-color: #fff;
+        line-height: 25px;
+    }
+    a {
+        margin-left: 10px;
+    }
+}
+.navbar {
+    color: #550087;
+
+    margin-right: -2rem;
+    font-family: "Quicksand", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+}
+.navbar-toggler {
+    align-items: flex-end;
+}
+.imgforlogo {
+    width: 8em;
+    height: 8em;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 426px) {
+    .imgforlogo {
+        width: 80px;
+        height: 80px;
+    }
+}
+.forspace {
+    height: 4rem;
+}
+@media only screen and (max-width: 426px) {
+    .forspace {
+        margin-top: -1rem;
+    }
+}
+.headline {
+    text-align: center;
+    font-family: var(--font);
+    color: #550087;
+    font-weight: 700;
+    font-size: 33px;
+}
+.row {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+    margin: 0rem 2rem;
+}
+.img1,
+.img2 {
+    height: 25rem;
+}
+@media only screen and (max-width: 426px) {
+    .img1,
+    .img2 {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+.classimg1 {
+    /* border:1px solid; */
+    justify-content: center;
+}
+.classimg2 {
+    /* border:1px solid; */
+    justify-content: center;
+    padding: 10px;
+}
+.divfortext {
+    padding: 4rem;
+    /* border:1px solid; */
+}
+span {
+    text-align: center;
+}
+.p {
+    font-family: var(--font);
+    color: #550087;
+    font-weight: 500;
+    font-size: 16px;
+}
+.classcontainerfluid {
+    background-color: #ffcc32;
+    width: auto;
+    height: auto;
+    padding: 2rem 0rem;
+}
+p {
+    font-family: var(--font);
+    color: #550087;
+    font-size: 26px;
+    font-weight: 700;
+}
+.pin3 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+    padding: 2rem 0rem;
+}
+.rowclassin4 {
+    padding: 1em 0rem;
+    /* border:1px solid red; */
+}
+.maininfour {
+    height: auto;
+    /* border:1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.pinfirstinfour {
+    font-size: 24px;
+    font-weight: 600;
+    color: #550087;
+    font-family: var(--font);
+    text-align: start;
+    line-height: 25px;
+}
+.secondpinfirstinfourth {
+    font-size: 20px;
+    font-weight: 300;
+    color: #550087;
+    opacity: 0.9;
+    font-family: var(--font);
+    text-align: start;
+    line-height: 25px;
+}
+.imginsecondinfourth {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+    .imginsecondinfourth {
+        height: 16rem;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 426px) {
+    .imginsecondinfourth {
+        display: flex;
+        justify-content: center;
+    }
+}
+.imginsecondinfour {
+    height: 8rem;
+    width: 14rem;
+}
+.fouthinfour {
+    display: flex;
+    justify-content: center;
+}
+.firstpinmain2 {
+    font-size: 25px;
+    font-family: var(--font);
+    font-weight: 800;
+}
+.spaninmain2 {
+    text-align: start;
+    width: 50%;
+}
+.secondspaninmain2 {
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 500;
+    text-align: start;
+}
+.btn {
+    width: 45rem;
+    height: 4rem;
+}
+.pinbtn {
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font);
+}
+.imgincarosal {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 40rem;
+}
+.justify {
+    display: flex;
+    justify-content: center;
+}
+.main3 {
+    height: max-content;
+    background-color: #ffcc32;
+}
+.subofmain3 {
+    display: flex;
+    justify-content: center;
+}
+.pinmain3 {
+    text-align: start;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--font);
+}
+#pmain3 {
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 400;
+}
+.firstinsub {
+    width: auto;
+    height: max-content;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.secondinsub {
+    width: 40%;
+    height: max-content;
+    float: left;
+}
+.maininmain4 {
+    margin: 2rem 0rem;
+}
+.main5 {
+    height: auto;
+    background-color: #ffcc32;
+    margin: 0rem 0rem;
+}
+input {
+    border: none;
+}
+.inputmain2 {
+    display: flex;
+    justify-items: center;
+}
+.input1in2 {
+    width: auto;
+}
+.input2in2 {
+    width: auto;
+}
+.input-group {
+    height: 8rem;
+}
+.button {
+    width: 6rem;
+    height: 3rem;
+}
+.inputmian4 {
+    display: flex;
+    justify-content: end;
+}
+.beforebutton {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+}
+.pininputmian4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace;
+}
+.pinlastinput {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font);
+    margin: 0px 0px;
+}
+footer {
+    height: auto;
+    padding: 2rem 0rem;
+    background-color: #550087;
+}
+.footercontainer {
+    height: 15rem;
+}
+.firstinfooter {
+    height: 10rem;
+}
+.pinfirstfooter {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+.secondinfooterz {
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    flex-direction: row;
+}
+.icon {
+    color: #fff;
+}
+.pinsecondfooter {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #2ea3f2;
+}
+.containerinfooter {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.class1 {
+    width: 100%;
+}
+.class2 {
+    width: 100%;
+}
